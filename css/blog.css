@@ -1,0 +1,94 @@
+#page {
+  background-image: url("../images/fond.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+#bordereau {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+#gauche {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: center;
+}
+
+#police {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#titre {
+  margin: 0;
+}
+
+#sstitre {
+  margin: 0;
+}
+
+#logoOasis {
+  max-height: 5em;
+}
+
+.taille {
+  max-height: 5em;
+}
+
+#contenant {
+  background-color: white;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding: 2em;
+  box-shadow: 0px 30px 30px gray;
+}
+
+h1 {
+  position: center;
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.papaye {
+  max-height: 7em;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions {
+  color: red;
+  font-weight: bold;
+}
+
+#footer {
+  background-color: rgb(209, 208, 205);
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reseau{
+    display: flex;
+    flex-direction: column;
+
+}
